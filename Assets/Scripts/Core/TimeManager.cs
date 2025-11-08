@@ -1,4 +1,5 @@
 using System.Collections.Generic;
+using Mono.Cecil.Cil;
 using UnityEngine;
 
 public class TimeManager : MonoBehaviour
@@ -34,13 +35,13 @@ public class TimeManager : MonoBehaviour
         
         for (int i = 0; i < allTimeObjects.Count; i++)
         {
-            if (allTimeObjects[i].GetComponent<TimeFairy>().ManagerCheckIfFlowOfTime())
+            if (allTimeObjects[i].GetComponent<TimeFairy>().ManagerCheckIfFlowOfTime()) //If ANYTHING returns true, time IS FLOWING
             {
                 Debug.Log(i);
                 TimeResumed();
                 return;
             }
-            TimeFrozen();
+            TimeFrozen(); Debug.Log("Time Frozen");
         }
             
     }
@@ -52,7 +53,8 @@ public class TimeManager : MonoBehaviour
     void TimeResumed()
     {
         isEverythingFrozen = false;
-        AS.Play();
+        if(!AS.isPlaying) {AS.Play();}
+        
     }
 
     // Update is called once per frame

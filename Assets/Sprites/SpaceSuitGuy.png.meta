@@ -1,0 +1,1679 @@
+fileFormatVersion: 2
+guid: 845ef3667c9b4b24c829f638861ab65c
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 9044824375942442056
+    second: SpaceSuitGuy_0
+  - first:
+      213: 4419683384885449593
+    second: SpaceSuitGuy_1
+  - first:
+      213: 8733140372693789343
+    second: SpaceSuitGuy_2
+  - first:
+      213: -4906391284757486000
+    second: SpaceSuitGuy_3
+  - first:
+      213: 553046363153196519
+    second: SpaceSuitGuy_4
+  - first:
+      213: 6294010014778137824
+    second: SpaceSuitGuy_5
+  - first:
+      213: 8118558262909808554
+    second: SpaceSuitGuy_6
+  - first:
+      213: -2063842811309301184
+    second: SpaceSuitGuy_7
+  - first:
+      213: -6127982609232851627
+    second: SpaceSuitGuy_8
+  - first:
+      213: -5692151962337662622
+    second: SpaceSuitGuy_9
+  - first:
+      213: -6133560969096801844
+    second: SpaceSuitGuy_10
+  - first:
+      213: -598219849761447829
+    second: SpaceSuitGuy_11
+  - first:
+      213: -6971703802413810011
+    second: SpaceSuitGuy_12
+  - first:
+      213: -4252666340345772804
+    second: SpaceSuitGuy_13
+  - first:
+      213: -915509207846972022
+    second: SpaceSuitGuy_14
+  - first:
+      213: -7671495868333639958
+    second: SpaceSuitGuy_15
+  - first:
+      213: -537041040822718944
+    second: SpaceSuitGuy_16
+  - first:
+      213: -2552584304359380256
+    second: SpaceSuitGuy_17
+  - first:
+      213: 9125545876131312857
+    second: SpaceSuitGuy_18
+  - first:
+      213: 8620358108628985034
+    second: SpaceSuitGuy_19
+  - first:
+      213: 2903027561268055929
+    second: SpaceSuitGuy_20
+  - first:
+      213: 5340381443206223857
+    second: SpaceSuitGuy_21
+  - first:
+      213: -1237508124679924044
+    second: SpaceSuitGuy_22
+  - first:
+      213: -405635143374900674
+    second: SpaceSuitGuy_23
+  - first:
+      213: 4310105534287782219
+    second: SpaceSuitGuy_24
+  - first:
+      213: -4722052138812679261
+    second: SpaceSuitGuy_25
+  - first:
+      213: -2305578901476016010
+    second: SpaceSuitGuy_26
+  - first:
+      213: -313293681309517979
+    second: SpaceSuitGuy_27
+  - first:
+      213: 7344508800760787213
+    second: SpaceSuitGuy_28
+  - first:
+      213: 8962375946890277432
+    second: SpaceSuitGuy_29
+  - first:
+      213: 3490091688090026333
+    second: SpaceSuitGuy_30
+  - first:
+      213: 3547116943288652668
+    second: SpaceSuitGuy_31
+  - first:
+      213: 1025303163333559636
+    second: SpaceSuitGuy_32
+  - first:
+      213: 6221223485388565891
+    second: SpaceSuitGuy_33
+  - first:
+      213: -1353323174030335235
+    second: SpaceSuitGuy_34
+  - first:
+      213: -1451254476964392944
+    second: SpaceSuitGuy_35
+  - first:
+      213: -346456629275186403
+    second: SpaceSuitGuy_36
+  - first:
+      213: -1303984276493174725
+    second: SpaceSuitGuy_37
+  - first:
+      213: 8165133514499748801
+    second: SpaceSuitGuy_38
+  - first:
+      213: 9135917679658270900
+    second: SpaceSuitGuy_39
+  - first:
+      213: 1565554417289971180
+    second: SpaceSuitGuy_40
+  - first:
+      213: -5245475859808239763
+    second: SpaceSuitGuy_41
+  - first:
+      213: 6458776765324744469
+    second: SpaceSuitGuy_42
+  - first:
+      213: 5521176144117826889
+    second: SpaceSuitGuy_43
+  - first:
+      213: -6215693789158512487
+    second: SpaceSuitGuy_44
+  - first:
+      213: 7864382173750306150
+    second: SpaceSuitGuy_45
+  - first:
+      213: -7521195175635009421
+    second: SpaceSuitGuy_46
+  - first:
+      213: -6477583092766916552
+    second: SpaceSuitGuy_47
+  - first:
+      213: -3669563806099760015
+    second: SpaceSuitGuy_48
+  - first:
+      213: 851900545680931645
+    second: SpaceSuitGuy_49
+  - first:
+      213: -7425250821310224134
+    second: SpaceSuitGuy_50
+  - first:
+      213: -8150061060044211437
+    second: SpaceSuitGuy_51
+  - first:
+      213: -4944812281594359992
+    second: SpaceSuitGuy_52
+  - first:
+      213: 4251104681701244160
+    second: SpaceSuitGuy_53
+  - first:
+      213: 6816543756737343382
+    second: SpaceSuitGuy_54
+  - first:
+      213: -7967789580076637197
+    second: SpaceSuitGuy_55
+  - first:
+      213: -5437689142624956241
+    second: SpaceSuitGuy_56
+  - first:
+      213: -9146180546248338957
+    second: SpaceSuitGuy_57
+  - first:
+      213: -1712808589513576530
+    second: SpaceSuitGuy_58
+  - first:
+      213: -6523166200621784591
+    second: SpaceSuitGuy_59
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 64
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: SpaceSuitGuy_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 259
+        width: 56
+        height: 37
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 84ce7df29dba58d70800000000000000
+      internalID: 9044824375942442056
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpaceSuitGuy_1
+      rect:
+        serializedVersion: 2
+        x: 56
+        y: 259
+        width: 56
+        height: 37
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9731bcf3f9ed55d30800000000000000
+      internalID: 4419683384885449593
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpaceSuitGuy_2
+      rect:
+        serializedVersion: 2
+        x: 112
+        y: 259
+        width: 56
+        height: 37
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f9a290816e8523970800000000000000
+      internalID: 8733140372693789343
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpaceSuitGuy_3
+      rect:
+        serializedVersion: 2
+        x: 168
+        y: 259
+        width: 56
+        height: 37
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 05625f62f1ff8ebb0800000000000000
+      internalID: -4906391284757486000
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpaceSuitGuy_4
+      rect:
+        serializedVersion: 2
+        x: 224
+        y: 259
+        width: 56
+        height: 37
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7e56114bcb0dca700800000000000000
+      internalID: 553046363153196519
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpaceSuitGuy_5
+      rect:
+        serializedVersion: 2
+        x: 280
+        y: 259
+        width: 56
+        height: 37
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0ec1a97e2c0d85750800000000000000
+      internalID: 6294010014778137824
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpaceSuitGuy_6
+      rect:
+        serializedVersion: 2
+        x: 336
+        y: 259
+        width: 56
+        height: 37
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: aaf2d05e9b9eaa070800000000000000
+      internalID: 8118558262909808554
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpaceSuitGuy_7
+      rect:
+        serializedVersion: 2
+        x: 392
+        y: 259
+        width: 56
+        height: 37
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0426aa7d5e1cb53e0800000000000000
+      internalID: -2063842811309301184
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpaceSuitGuy_8
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 222
+        width: 56
+        height: 37
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 55d87eac84805faa0800000000000000
+      internalID: -6127982609232851627
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpaceSuitGuy_9
+      rect:
+        serializedVersion: 2
+        x: 56
+        y: 222
+        width: 56
+        height: 37
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2692255d2f96101b0800000000000000
+      internalID: -5692151962337662622
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpaceSuitGuy_10
+      rect:
+        serializedVersion: 2
+        x: 112
+        y: 222
+        width: 56
+        height: 37
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cc1d8ccabc631eaa0800000000000000
+      internalID: -6133560969096801844
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpaceSuitGuy_11
+      rect:
+        serializedVersion: 2
+        x: 168
+        y: 222
+        width: 56
+        height: 37
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b60a1655732b2b7f0800000000000000
+      internalID: -598219849761447829
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpaceSuitGuy_12
+      rect:
+        serializedVersion: 2
+        x: 224
+        y: 222
+        width: 56
+        height: 37
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5ae72e154588f3f90800000000000000
+      internalID: -6971703802413810011
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpaceSuitGuy_13
+      rect:
+        serializedVersion: 2
+        x: 280
+        y: 222
+        width: 56
+        height: 37
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cf40e6bbe7e7bf4c0800000000000000
+      internalID: -4252666340345772804
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpaceSuitGuy_14
+      rect:
+        serializedVersion: 2
+        x: 336
+        y: 222
+        width: 56
+        height: 37
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a859eadd9357b43f0800000000000000
+      internalID: -915509207846972022
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpaceSuitGuy_15
+      rect:
+        serializedVersion: 2
+        x: 392
+        y: 222
+        width: 56
+        height: 37
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ae6b810372f598590800000000000000
+      internalID: -7671495868333639958
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpaceSuitGuy_16
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 185
+        width: 56
+        height: 37
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 02ea4fbc40c0c88f0800000000000000
+      internalID: -537041040822718944
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpaceSuitGuy_17
+      rect:
+        serializedVersion: 2
+        x: 56
+        y: 185
+        width: 56
+        height: 37
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0eaeb6f6916639cd0800000000000000
+      internalID: -2552584304359380256
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpaceSuitGuy_18
+      rect:
+        serializedVersion: 2
+        x: 112
+        y: 185
+        width: 56
+        height: 37
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9d4765800a374ae70800000000000000
+      internalID: 9125545876131312857
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpaceSuitGuy_19
+      rect:
+        serializedVersion: 2
+        x: 168
+        y: 185
+        width: 56
+        height: 37
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ac42d75f60aa1a770800000000000000
+      internalID: 8620358108628985034
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpaceSuitGuy_20
+      rect:
+        serializedVersion: 2
+        x: 224
+        y: 185
+        width: 56
+        height: 37
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 97f0d82af20a94820800000000000000
+      internalID: 2903027561268055929
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpaceSuitGuy_21
+      rect:
+        serializedVersion: 2
+        x: 280
+        y: 185
+        width: 56
+        height: 37
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1f71567c0a8dc1a40800000000000000
+      internalID: 5340381443206223857
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpaceSuitGuy_22
+      rect:
+        serializedVersion: 2
+        x: 336
+        y: 185
+        width: 56
+        height: 37
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4b61bcdcaec73dee0800000000000000
+      internalID: -1237508124679924044
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpaceSuitGuy_23
+      rect:
+        serializedVersion: 2
+        x: 392
+        y: 185
+        width: 56
+        height: 37
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e3279ba7cf4ee5af0800000000000000
+      internalID: -405635143374900674
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpaceSuitGuy_24
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 148
+        width: 56
+        height: 37
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b412ba3c52290db30800000000000000
+      internalID: 4310105534287782219
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpaceSuitGuy_25
+      rect:
+        serializedVersion: 2
+        x: 56
+        y: 148
+        width: 56
+        height: 37
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3ab52372996e77eb0800000000000000
+      internalID: -4722052138812679261
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpaceSuitGuy_26
+      rect:
+        serializedVersion: 2
+        x: 112
+        y: 148
+        width: 56
+        height: 37
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 67003ef5430f000e0800000000000000
+      internalID: -2305578901476016010
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpaceSuitGuy_27
+      rect:
+        serializedVersion: 2
+        x: 168
+        y: 148
+        width: 56
+        height: 37
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 567fb278e05f6abf0800000000000000
+      internalID: -313293681309517979
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpaceSuitGuy_28
+      rect:
+        serializedVersion: 2
+        x: 224
+        y: 148
+        width: 56
+        height: 37
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d01b31767dfece560800000000000000
+      internalID: 7344508800760787213
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpaceSuitGuy_29
+      rect:
+        serializedVersion: 2
+        x: 280
+        y: 148
+        width: 56
+        height: 37
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 83276e16071c06c70800000000000000
+      internalID: 8962375946890277432
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpaceSuitGuy_30
+      rect:
+        serializedVersion: 2
+        x: 336
+        y: 148
+        width: 56
+        height: 37
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d51462626eb4f6030800000000000000
+      internalID: 3490091688090026333
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpaceSuitGuy_31
+      rect:
+        serializedVersion: 2
+        x: 392
+        y: 148
+        width: 56
+        height: 37
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c735d750114e93130800000000000000
+      internalID: 3547116943288652668
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpaceSuitGuy_32
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 111
+        width: 56
+        height: 37
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 455c4957bcb9a3e00800000000000000
+      internalID: 1025303163333559636
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpaceSuitGuy_33
+      rect:
+        serializedVersion: 2
+        x: 56
+        y: 111
+        width: 56
+        height: 37
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 38d27ea6cc9365650800000000000000
+      internalID: 6221223485388565891
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpaceSuitGuy_34
+      rect:
+        serializedVersion: 2
+        x: 112
+        y: 111
+        width: 56
+        height: 37
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: df22e915eb7083de0800000000000000
+      internalID: -1353323174030335235
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpaceSuitGuy_35
+      rect:
+        serializedVersion: 2
+        x: 168
+        y: 111
+        width: 56
+        height: 37
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 01097d50ebb1cdbe0800000000000000
+      internalID: -1451254476964392944
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpaceSuitGuy_36
+      rect:
+        serializedVersion: 2
+        x: 224
+        y: 111
+        width: 56
+        height: 37
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d1b29f10883213bf0800000000000000
+      internalID: -346456629275186403
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpaceSuitGuy_37
+      rect:
+        serializedVersion: 2
+        x: 280
+        y: 111
+        width: 56
+        height: 37
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b38fde6953157ede0800000000000000
+      internalID: -1303984276493174725
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpaceSuitGuy_38
+      rect:
+        serializedVersion: 2
+        x: 336
+        y: 111
+        width: 56
+        height: 37
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1c3f463bba1605170800000000000000
+      internalID: 8165133514499748801
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpaceSuitGuy_39
+      rect:
+        serializedVersion: 2
+        x: 392
+        y: 111
+        width: 56
+        height: 37
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4b00e39b9bc49ce70800000000000000
+      internalID: 9135917679658270900
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpaceSuitGuy_40
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 74
+        width: 56
+        height: 37
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ce5cc17a277f9b510800000000000000
+      internalID: 1565554417289971180
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpaceSuitGuy_41
+      rect:
+        serializedVersion: 2
+        x: 56
+        y: 74
+        width: 56
+        height: 37
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d6f3e3a4f735437b0800000000000000
+      internalID: -5245475859808239763
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpaceSuitGuy_42
+      rect:
+        serializedVersion: 2
+        x: 112
+        y: 74
+        width: 56
+        height: 37
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5175abc7f3f22a950800000000000000
+      internalID: 6458776765324744469
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpaceSuitGuy_43
+      rect:
+        serializedVersion: 2
+        x: 168
+        y: 74
+        width: 56
+        height: 37
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 945018c53782f9c40800000000000000
+      internalID: 5521176144117826889
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpaceSuitGuy_44
+      rect:
+        serializedVersion: 2
+        x: 224
+        y: 74
+        width: 56
+        height: 37
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 998ea905e6b6db9a0800000000000000
+      internalID: -6215693789158512487
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpaceSuitGuy_45
+      rect:
+        serializedVersion: 2
+        x: 280
+        y: 74
+        width: 56
+        height: 37
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6652d447be5e32d60800000000000000
+      internalID: 7864382173750306150
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpaceSuitGuy_46
+      rect:
+        serializedVersion: 2
+        x: 336
+        y: 74
+        width: 56
+        height: 37
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 370c4e536d85f9790800000000000000
+      internalID: -7521195175635009421
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpaceSuitGuy_47
+      rect:
+        serializedVersion: 2
+        x: 392
+        y: 74
+        width: 56
+        height: 37
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8304d803f700b16a0800000000000000
+      internalID: -6477583092766916552
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpaceSuitGuy_48
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 37
+        width: 56
+        height: 37
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 17c1bc81927131dc0800000000000000
+      internalID: -3669563806099760015
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpaceSuitGuy_49
+      rect:
+        serializedVersion: 2
+        x: 56
+        y: 37
+        width: 56
+        height: 37
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d3bf541680f82db00800000000000000
+      internalID: 851900545680931645
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpaceSuitGuy_50
+      rect:
+        serializedVersion: 2
+        x: 112
+        y: 37
+        width: 56
+        height: 37
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: af860abf7b534f890800000000000000
+      internalID: -7425250821310224134
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpaceSuitGuy_51
+      rect:
+        serializedVersion: 2
+        x: 168
+        y: 37
+        width: 56
+        height: 37
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 31b325295aa25ee80800000000000000
+      internalID: -8150061060044211437
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpaceSuitGuy_52
+      rect:
+        serializedVersion: 2
+        x: 224
+        y: 37
+        width: 56
+        height: 37
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 84f449abd6f706bb0800000000000000
+      internalID: -4944812281594359992
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpaceSuitGuy_53
+      rect:
+        serializedVersion: 2
+        x: 280
+        y: 37
+        width: 56
+        height: 37
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 00d7dc74f25fefa30800000000000000
+      internalID: 4251104681701244160
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpaceSuitGuy_54
+      rect:
+        serializedVersion: 2
+        x: 336
+        y: 37
+        width: 56
+        height: 37
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 69f6c306e6a399e50800000000000000
+      internalID: 6816543756737343382
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpaceSuitGuy_55
+      rect:
+        serializedVersion: 2
+        x: 392
+        y: 37
+        width: 56
+        height: 37
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3f329729799bc6190800000000000000
+      internalID: -7967789580076637197
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpaceSuitGuy_56
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 56
+        height: 37
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fa057dee8827984b0800000000000000
+      internalID: -5437689142624956241
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpaceSuitGuy_57
+      rect:
+        serializedVersion: 2
+        x: 56
+        y: 0
+        width: 56
+        height: 37
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3f19741704d321180800000000000000
+      internalID: -9146180546248338957
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpaceSuitGuy_58
+      rect:
+        serializedVersion: 2
+        x: 112
+        y: 0
+        width: 56
+        height: 37
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: eaf2ec5a9a1ea38e0800000000000000
+      internalID: -1712808589513576530
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpaceSuitGuy_59
+      rect:
+        serializedVersion: 2
+        x: 168
+        y: 0
+        width: 56
+        height: 37
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1f1aa19d6ee0975a0800000000000000
+      internalID: -6523166200621784591
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: a5107315ee8ab9445a078862ed3119a2
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries:
+      - key: SpriteEditor.SliceSettings
+        value: '{"sliceOnImport":false,"gridCellCount":{"x":8.0,"y":8.0},"gridSpriteSize":{"x":56.0,"y":37.0},"gridSpriteOffset":{"x":0.0,"y":0.0},"gridSpritePadding":{"x":0.0,"y":0.0},"pivot":{"x":0.5,"y":0.5},"pivotPixels":{"x":0.0,"y":0.0},"autoSlicingMethod":0,"spriteAlignment":0,"pivotUnitMode":0,"slicingType":2,"keepEmptyRects":false,"isAlternate":false}'
+    nameFileIdTable:
+      SpaceSuitGuy_0: 9044824375942442056
+      SpaceSuitGuy_1: 4419683384885449593
+      SpaceSuitGuy_10: -6133560969096801844
+      SpaceSuitGuy_11: -598219849761447829
+      SpaceSuitGuy_12: -6971703802413810011
+      SpaceSuitGuy_13: -4252666340345772804
+      SpaceSuitGuy_14: -915509207846972022
+      SpaceSuitGuy_15: -7671495868333639958
+      SpaceSuitGuy_16: -537041040822718944
+      SpaceSuitGuy_17: -2552584304359380256
+      SpaceSuitGuy_18: 9125545876131312857
+      SpaceSuitGuy_19: 8620358108628985034
+      SpaceSuitGuy_2: 8733140372693789343
+      SpaceSuitGuy_20: 2903027561268055929
+      SpaceSuitGuy_21: 5340381443206223857
+      SpaceSuitGuy_22: -1237508124679924044
+      SpaceSuitGuy_23: -405635143374900674
+      SpaceSuitGuy_24: 4310105534287782219
+      SpaceSuitGuy_25: -4722052138812679261
+      SpaceSuitGuy_26: -2305578901476016010
+      SpaceSuitGuy_27: -313293681309517979
+      SpaceSuitGuy_28: 7344508800760787213
+      SpaceSuitGuy_29: 8962375946890277432
+      SpaceSuitGuy_3: -4906391284757486000
+      SpaceSuitGuy_30: 3490091688090026333
+      SpaceSuitGuy_31: 3547116943288652668
+      SpaceSuitGuy_32: 1025303163333559636
+      SpaceSuitGuy_33: 6221223485388565891
+      SpaceSuitGuy_34: -1353323174030335235
+      SpaceSuitGuy_35: -1451254476964392944
+      SpaceSuitGuy_36: -346456629275186403
+      SpaceSuitGuy_37: -1303984276493174725
+      SpaceSuitGuy_38: 8165133514499748801
+      SpaceSuitGuy_39: 9135917679658270900
+      SpaceSuitGuy_4: 553046363153196519
+      SpaceSuitGuy_40: 1565554417289971180
+      SpaceSuitGuy_41: -5245475859808239763
+      SpaceSuitGuy_42: 6458776765324744469
+      SpaceSuitGuy_43: 5521176144117826889
+      SpaceSuitGuy_44: -6215693789158512487
+      SpaceSuitGuy_45: 7864382173750306150
+      SpaceSuitGuy_46: -7521195175635009421
+      SpaceSuitGuy_47: -6477583092766916552
+      SpaceSuitGuy_48: -3669563806099760015
+      SpaceSuitGuy_49: 851900545680931645
+      SpaceSuitGuy_5: 6294010014778137824
+      SpaceSuitGuy_50: -7425250821310224134
+      SpaceSuitGuy_51: -8150061060044211437
+      SpaceSuitGuy_52: -4944812281594359992
+      SpaceSuitGuy_53: 4251104681701244160
+      SpaceSuitGuy_54: 6816543756737343382
+      SpaceSuitGuy_55: -7967789580076637197
+      SpaceSuitGuy_56: -5437689142624956241
+      SpaceSuitGuy_57: -9146180546248338957
+      SpaceSuitGuy_58: -1712808589513576530
+      SpaceSuitGuy_59: -6523166200621784591
+      SpaceSuitGuy_6: 8118558262909808554
+      SpaceSuitGuy_7: -2063842811309301184
+      SpaceSuitGuy_8: -6127982609232851627
+      SpaceSuitGuy_9: -5692151962337662622
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

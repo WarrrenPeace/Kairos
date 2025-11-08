@@ -7,6 +7,7 @@ public class TimeManager : MonoBehaviour
     AudioSource AS;
     bool isEverythingFrozen;
     public float timeLeftInLevel = 25;
+    [SerializeField] bool isTimeObjectListDynamic;
     [SerializeField] List<GameObject> allTimeObjects;
     // Start is called once before the first execution of Update after the MonoBehaviour is created
     void Awake()
@@ -23,10 +24,14 @@ public class TimeManager : MonoBehaviour
         AS = GetComponent<AudioSource>();
         allTimeObjects = new List<GameObject>(GameObject.FindGameObjectsWithTag("TimeTag"));
 
+        TimeFairy.TimeObjectHasChangedState += CheckAllTimeObjects;
+        
         CheckAllTimeObjects();
     }
     void CheckAllTimeObjects() //Called via event from any time object
     {
+        if(isTimeObjectListDynamic) {allTimeObjects = new List<GameObject>(GameObject.FindGameObjectsWithTag("TimeTag"));} //Enable if list needs to be updated
+        
         for (int i = 0; i < allTimeObjects.Count; i++)
         {
             if (allTimeObjects[i].GetComponent<TimeFairy>().ManagerCheckIfFlowOfTime())
@@ -37,6 +42,7 @@ public class TimeManager : MonoBehaviour
             }
             TimeFrozen();
         }
+            
     }
     void TimeFrozen()
     {

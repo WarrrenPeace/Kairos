@@ -1,0 +1,1131 @@
+fileFormatVersion: 2
+guid: 4cb6ba8a7e29cf340b97c66f27abbff9
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -7981728549314541240
+    second: UnityJampng_0
+  - first:
+      213: 3578659506849469158
+    second: UnityJampng_1
+  - first:
+      213: -5934580164950310332
+    second: UnityJampng_2
+  - first:
+      213: 4733605608592758519
+    second: UnityJampng_3
+  - first:
+      213: 7051146795850748741
+    second: UnityJampng_4
+  - first:
+      213: -4222503962058728019
+    second: UnityJampng_5
+  - first:
+      213: 2682928919424412987
+    second: UnityJampng_6
+  - first:
+      213: 6334544196576445405
+    second: UnityJampng_7
+  - first:
+      213: 3853366762949296458
+    second: UnityJampng_8
+  - first:
+      213: 5290922515347473672
+    second: UnityJampng_9
+  - first:
+      213: 7972888064922773611
+    second: UnityJampng_10
+  - first:
+      213: -7451611056193005004
+    second: UnityJampng_11
+  - first:
+      213: 2864124257602658729
+    second: UnityJampng_12
+  - first:
+      213: -1888301785278562259
+    second: UnityJampng_13
+  - first:
+      213: 2022366636878176112
+    second: UnityJampng_14
+  - first:
+      213: 141304765687594956
+    second: UnityJampng_15
+  - first:
+      213: 3858758376594883759
+    second: UnityJampng_16
+  - first:
+      213: -3630581239200864010
+    second: UnityJampng_17
+  - first:
+      213: -4546140416157177252
+    second: UnityJampng_18
+  - first:
+      213: -488376565406374442
+    second: UnityJampng_19
+  - first:
+      213: -7478820568517116109
+    second: UnityJampng_20
+  - first:
+      213: 3494574391953357521
+    second: UnityJampng_21
+  - first:
+      213: 4683406215036361733
+    second: UnityJampng_22
+  - first:
+      213: 5263440635015142155
+    second: UnityJampng_23
+  - first:
+      213: 4054529345415722214
+    second: UnityJampng_24
+  - first:
+      213: -6995254430747136115
+    second: UnityJampng_25
+  - first:
+      213: -9081644079811877872
+    second: UnityJampng_26
+  - first:
+      213: -2022342673037980564
+    second: UnityJampng_27
+  - first:
+      213: -4255783164026810487
+    second: UnityJampng_28
+  - first:
+      213: 7378726926142389125
+    second: UnityJampng_29
+  - first:
+      213: -4486180361004059773
+    second: UnityJampng_30
+  - first:
+      213: -7294567579030201459
+    second: UnityJampng_31
+  - first:
+      213: 6133143993750494318
+    second: UnityJampng_32
+  - first:
+      213: -235543383197812433
+    second: UnityJampng_33
+  - first:
+      213: 5590852663145414038
+    second: UnityJampng_34
+  - first:
+      213: 5019484636579758414
+    second: UnityJampng_35
+  - first:
+      213: -3980639980975182754
+    second: UnityJampng_36
+  - first:
+      213: 8728838413354387722
+    second: UnityJampng_37
+  - first:
+      213: -8855364087256816872
+    second: UnityJampng_38
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: UnityJampng_0
+      rect:
+        serializedVersion: 2
+        x: 52
+        y: 192
+        width: 200
+        height: 231
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 84943846c243b3190800000000000000
+      internalID: -7981728549314541240
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UnityJampng_1
+      rect:
+        serializedVersion: 2
+        x: 282
+        y: 311
+        width: 23
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6e256d56cd3f9a130800000000000000
+      internalID: 3578659506849469158
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UnityJampng_2
+      rect:
+        serializedVersion: 2
+        x: 313
+        y: 311
+        width: 17
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 442ce0168c224ada0800000000000000
+      internalID: -5934580164950310332
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UnityJampng_3
+      rect:
+        serializedVersion: 2
+        x: 338
+        y: 311
+        width: 23
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7f6d7f6a83521b140800000000000000
+      internalID: 4733605608592758519
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UnityJampng_4
+      rect:
+        serializedVersion: 2
+        x: 369
+        y: 311
+        width: 20
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 54351d9f6a4bad160800000000000000
+      internalID: 7051146795850748741
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UnityJampng_5
+      rect:
+        serializedVersion: 2
+        x: 282
+        y: 279
+        width: 23
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: dad5fcea407a665c0800000000000000
+      internalID: -4222503962058728019
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UnityJampng_6
+      rect:
+        serializedVersion: 2
+        x: 313
+        y: 279
+        width: 21
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b3d2aef23adab3520800000000000000
+      internalID: 2682928919424412987
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UnityJampng_7
+      rect:
+        serializedVersion: 2
+        x: 343
+        y: 279
+        width: 21
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: dd383fa8262d8e750800000000000000
+      internalID: 6334544196576445405
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UnityJampng_8
+      rect:
+        serializedVersion: 2
+        x: 373
+        y: 279
+        width: 8
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a41c3e6a7a8e97530800000000000000
+      internalID: 3853366762949296458
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UnityJampng_9
+      rect:
+        serializedVersion: 2
+        x: 388
+        y: 279
+        width: 24
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8050765cef12d6940800000000000000
+      internalID: 5290922515347473672
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UnityJampng_10
+      rect:
+        serializedVersion: 2
+        x: 420
+        y: 279
+        width: 17
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b686cafe37365ae60800000000000000
+      internalID: 7972888064922773611
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UnityJampng_11
+      rect:
+        serializedVersion: 2
+        x: 446
+        y: 279
+        width: 20
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 43a1e37893f869890800000000000000
+      internalID: -7451611056193005004
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UnityJampng_12
+      rect:
+        serializedVersion: 2
+        x: 473
+        y: 279
+        width: 20
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9a16cf666d96fb720800000000000000
+      internalID: 2864124257602658729
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UnityJampng_13
+      rect:
+        serializedVersion: 2
+        x: 499
+        y: 279
+        width: 24
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d204cbbe7876bc5e0800000000000000
+      internalID: -1888301785278562259
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UnityJampng_14
+      rect:
+        serializedVersion: 2
+        x: 531
+        y: 279
+        width: 19
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 07f99b4cdb3e01c10800000000000000
+      internalID: 2022366636878176112
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UnityJampng_15
+      rect:
+        serializedVersion: 2
+        x: 556
+        y: 279
+        width: 23
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ccff0eb8fe306f100800000000000000
+      internalID: 141304765687594956
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UnityJampng_16
+      rect:
+        serializedVersion: 2
+        x: 17
+        y: 80
+        width: 38
+        height: 41
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fa440078c401d8530800000000000000
+      internalID: 3858758376594883759
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UnityJampng_17
+      rect:
+        serializedVersion: 2
+        x: 55
+        y: 81
+        width: 22
+        height: 41
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6f82c3d39959d9dc0800000000000000
+      internalID: -3630581239200864010
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UnityJampng_18
+      rect:
+        serializedVersion: 2
+        x: 75
+        y: 81
+        width: 22
+        height: 41
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c5aa7e3c06dd8e0c0800000000000000
+      internalID: -4546140416157177252
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UnityJampng_19
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 112
+        width: 11
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6d5e35ee910f839f0800000000000000
+      internalID: -488376565406374442
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UnityJampng_20
+      rect:
+        serializedVersion: 2
+        x: 110
+        y: 80
+        width: 28
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 33ff6a24154e53890800000000000000
+      internalID: -7478820568517116109
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UnityJampng_21
+      rect:
+        serializedVersion: 2
+        x: 140
+        y: 112
+        width: 11
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1da7e89f4e83f7030800000000000000
+      internalID: 3494574391953357521
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UnityJampng_22
+      rect:
+        serializedVersion: 2
+        x: 153
+        y: 80
+        width: 28
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 50c591a832dcef040800000000000000
+      internalID: 4683406215036361733
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UnityJampng_23
+      rect:
+        serializedVersion: 2
+        x: 185
+        y: 81
+        width: 10
+        height: 39
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b0b1f62ee5f7b0940800000000000000
+      internalID: 5263440635015142155
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UnityJampng_24
+      rect:
+        serializedVersion: 2
+        x: 210
+        y: 80
+        width: 33
+        height: 40
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6e4b6e435f4944830800000000000000
+      internalID: 4054529345415722214
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UnityJampng_25
+      rect:
+        serializedVersion: 2
+        x: 247
+        y: 81
+        width: 28
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d8fe6dd582ddbee90800000000000000
+      internalID: -6995254430747136115
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UnityJampng_26
+      rect:
+        serializedVersion: 2
+        x: 278
+        y: 112
+        width: 11
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 014a84673d487f180800000000000000
+      internalID: -9081644079811877872
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UnityJampng_27
+      rect:
+        serializedVersion: 2
+        x: 291
+        y: 80
+        width: 20
+        height: 38
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c6c057fbd023fe3e0800000000000000
+      internalID: -2022342673037980564
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UnityJampng_28
+      rect:
+        serializedVersion: 2
+        x: 354
+        y: 80
+        width: 37
+        height: 41
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 98f081ba2cb60f4c0800000000000000
+      internalID: -4255783164026810487
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UnityJampng_29
+      rect:
+        serializedVersion: 2
+        x: 391
+        y: 80
+        width: 28
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 58bb35f8b01866660800000000000000
+      internalID: 7378726926142389125
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UnityJampng_30
+      rect:
+        serializedVersion: 2
+        x: 423
+        y: 81
+        width: 43
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 383f4000bb2edb1c0800000000000000
+      internalID: -4486180361004059773
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UnityJampng_31
+      rect:
+        serializedVersion: 2
+        x: 468
+        y: 80
+        width: 29
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d8bd2d56f6d74ca90800000000000000
+      internalID: -7294567579030201459
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UnityJampng_32
+      rect:
+        serializedVersion: 2
+        x: 510
+        y: 80
+        width: 27
+        height: 40
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e6c91dfa7fd4d1550800000000000000
+      internalID: 6133143993750494318
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UnityJampng_33
+      rect:
+        serializedVersion: 2
+        x: 539
+        y: 80
+        width: 28
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f29fc4b7a8e2bbcf0800000000000000
+      internalID: -235543383197812433
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UnityJampng_34
+      rect:
+        serializedVersion: 2
+        x: 570
+        y: 81
+        width: 43
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 69d345220e2b69d40800000000000000
+      internalID: 5590852663145414038
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UnityJampng_35
+      rect:
+        serializedVersion: 2
+        x: 97
+        y: 81
+        width: 10
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e410edebeaac8a540800000000000000
+      internalID: 5019484636579758414
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UnityJampng_36
+      rect:
+        serializedVersion: 2
+        x: 141
+        y: 81
+        width: 10
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e5ca143170de1c8c0800000000000000
+      internalID: -3980639980975182754
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UnityJampng_37
+      rect:
+        serializedVersion: 2
+        x: 279
+        y: 81
+        width: 10
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a09c5c12a40132970800000000000000
+      internalID: 8728838413354387722
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UnityJampng_38
+      rect:
+        serializedVersion: 2
+        x: 310
+        y: 70
+        width: 31
+        height: 41
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8136e46c74d6b1580800000000000000
+      internalID: -8855364087256816872
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      UnityJampng_0: -7981728549314541240
+      UnityJampng_1: 3578659506849469158
+      UnityJampng_10: 7972888064922773611
+      UnityJampng_11: -7451611056193005004
+      UnityJampng_12: 2864124257602658729
+      UnityJampng_13: -1888301785278562259
+      UnityJampng_14: 2022366636878176112
+      UnityJampng_15: 141304765687594956
+      UnityJampng_16: 3858758376594883759
+      UnityJampng_17: -3630581239200864010
+      UnityJampng_18: -4546140416157177252
+      UnityJampng_19: -488376565406374442
+      UnityJampng_2: -5934580164950310332
+      UnityJampng_20: -7478820568517116109
+      UnityJampng_21: 3494574391953357521
+      UnityJampng_22: 4683406215036361733
+      UnityJampng_23: 5263440635015142155
+      UnityJampng_24: 4054529345415722214
+      UnityJampng_25: -6995254430747136115
+      UnityJampng_26: -9081644079811877872
+      UnityJampng_27: -2022342673037980564
+      UnityJampng_28: -4255783164026810487
+      UnityJampng_29: 7378726926142389125
+      UnityJampng_3: 4733605608592758519
+      UnityJampng_30: -4486180361004059773
+      UnityJampng_31: -7294567579030201459
+      UnityJampng_32: 6133143993750494318
+      UnityJampng_33: -235543383197812433
+      UnityJampng_34: 5590852663145414038
+      UnityJampng_35: 5019484636579758414
+      UnityJampng_36: -3980639980975182754
+      UnityJampng_37: 8728838413354387722
+      UnityJampng_38: -8855364087256816872
+      UnityJampng_4: 7051146795850748741
+      UnityJampng_5: -4222503962058728019
+      UnityJampng_6: 2682928919424412987
+      UnityJampng_7: 6334544196576445405
+      UnityJampng_8: 3853366762949296458
+      UnityJampng_9: 5290922515347473672
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

@@ -3,20 +3,28 @@ using UnityEngine;
 
 public class TimeFairy : MonoBehaviour
 {
+    AudioSource AS;
     [SerializeField] bool isTimeFlowing;
     public static event Action TimeObjectHasChangedState;
     [SerializeField] GameObject timeColorMask;
+    [SerializeField] AudioClip resume;
+     [SerializeField] AudioClip pause;
     
 
     void Start()
     {
+        AS = GetComponent<AudioSource>();
         if (isTimeFlowing)
         {
-            StartFlowOfTime();
+            isTimeFlowing = true;
+            GetComponent<Movement>().ToggleFreezeState(true);
+            timeColorMask.SetActive(isTimeFlowing);
         }
         else
         {
-            StopFlowOfTime();
+            isTimeFlowing = false;
+            GetComponent<Movement>().ToggleFreezeState(false);
+            timeColorMask.SetActive(isTimeFlowing);StopFlowOfTime();
         }
     }
     public void ToggleFlowOfTime()
@@ -33,15 +41,18 @@ public class TimeFairy : MonoBehaviour
     }
     void StartFlowOfTime()
     {
-
         isTimeFlowing = true;
+        GetComponent<Movement>().ToggleFreezeState(true);
         timeColorMask.SetActive(isTimeFlowing);
+        AS.PlayOneShot(resume);
     }
     void StopFlowOfTime()
     {
 
         isTimeFlowing = false;
+        GetComponent<Movement>().ToggleFreezeState(false);
         timeColorMask.SetActive(isTimeFlowing);
+        AS.PlayOneShot(pause);
     }
     public bool ManagerCheckIfFlowOfTime()
     {

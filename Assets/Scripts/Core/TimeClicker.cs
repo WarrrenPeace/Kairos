@@ -5,7 +5,7 @@ public class TimeClicker : MonoBehaviour
 {
     Vector2 mousePosition;
     GameObject currentTarget;
-    bool canClick = true;
+    //bool canClick = true;
 
     [SerializeField] LayerMask maskForTimeObjects;
 

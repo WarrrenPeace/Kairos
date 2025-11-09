@@ -5,7 +5,8 @@ using UnityEngine;
 public class TimeManager : MonoBehaviour
 {
     public static TimeManager instance;
-    AudioSource AS;
+    [SerializeField] AudioSource ASTicking;
+    [SerializeField] AudioSource ASMusic;
     bool isEverythingFrozen;
     public float timeLeftInLevel = 25;
     [SerializeField] bool isTimeObjectListDynamic;
@@ -22,7 +23,6 @@ public class TimeManager : MonoBehaviour
     }
     void Start()
     {
-        AS = GetComponent<AudioSource>();
         allTimeObjects = new List<GameObject>(GameObject.FindGameObjectsWithTag("TimeTag"));
 
         TimeFairy.TimeObjectHasChangedState += CheckAllTimeObjects;
@@ -37,23 +37,25 @@ public class TimeManager : MonoBehaviour
         {
             if (allTimeObjects[i].GetComponent<TimeFairy>().ManagerCheckIfFlowOfTime()) //If ANYTHING returns true, time IS FLOWING
             {
-                Debug.Log(i);
+                //Debug.Log(i);
                 TimeResumed();
                 return;
             }
-            TimeFrozen(); Debug.Log("Time Frozen");
+            TimeFrozen(); //Debug.Log("Time Frozen");
         }
             
     }
     void TimeFrozen()
     {
         isEverythingFrozen = true;
-        AS.Pause();
+        ASTicking.Pause();
+        ASMusic.Pause();
     }
     void TimeResumed()
     {
         isEverythingFrozen = false;
-        if(!AS.isPlaying) {AS.Play();}
+        if (!ASTicking.isPlaying) { ASTicking.Play(); }
+        if(!ASMusic.isPlaying) {ASMusic.Play();}
         
     }
 
@@ -77,7 +79,8 @@ public class TimeManager : MonoBehaviour
     void NoTimeLeft() //Talk to game manager to END LEVEL
     {
         Debug.Log("TIME IS UP");
-        AS.Pause();
+        ASTicking.Pause();
+        ASMusic.Pause();
         enabled = false;
     }
 }

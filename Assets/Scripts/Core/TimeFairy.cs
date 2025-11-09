@@ -17,13 +17,13 @@ public class TimeFairy : MonoBehaviour
         if (isTimeFlowing)
         {
             isTimeFlowing = true;
-            GetComponent<Movement>().ToggleFreezeState(true);
+            GetComponent<Movement>().ToggleFreezeStateToTrue(false);
             timeColorMask.SetActive(isTimeFlowing);
         }
         else
         {
             isTimeFlowing = false;
-            GetComponent<Movement>().ToggleFreezeState(false);
+            GetComponent<Movement>().ToggleFreezeStateToTrue(true);
             timeColorMask.SetActive(isTimeFlowing);StopFlowOfTime();
         }
     }
@@ -42,7 +42,7 @@ public class TimeFairy : MonoBehaviour
     void StartFlowOfTime()
     {
         isTimeFlowing = true;
-        GetComponent<Movement>().ToggleFreezeState(true);
+        GetComponent<Movement>().ToggleFreezeStateToTrue(false);
         timeColorMask.SetActive(isTimeFlowing);
         AS.PlayOneShot(resume);
     }
@@ -50,7 +50,7 @@ public class TimeFairy : MonoBehaviour
     {
 
         isTimeFlowing = false;
-        GetComponent<Movement>().ToggleFreezeState(false);
+        GetComponent<Movement>().ToggleFreezeStateToTrue(true);
         timeColorMask.SetActive(isTimeFlowing);
         AS.PlayOneShot(pause);
     }

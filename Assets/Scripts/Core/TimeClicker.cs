@@ -1,3 +1,4 @@
+using Unity.Mathematics;
 using UnityEngine;
 using UnityEngine.InputSystem;
 
@@ -6,6 +7,7 @@ public class TimeClicker : MonoBehaviour
     Vector2 mousePosition;
     GameObject currentTarget;
     //bool canClick = true;
+    [SerializeField] GameObject clickEffectPrefab;
 
     [SerializeField] LayerMask maskForTimeObjects;
 
@@ -42,6 +44,7 @@ public class TimeClicker : MonoBehaviour
             if (Mouse.current.leftButton.wasPressedThisFrame)
             {
                 ToggleTimeForClickedObject();
+                Instantiate(clickEffectPrefab, currentTarget.transform.position, quaternion.identity,currentTarget.transform);
             }
         }
     }

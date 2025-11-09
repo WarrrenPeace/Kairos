@@ -5,24 +5,30 @@ public class ProtagonistMovement : Movement
     public enum State { Running, Falling, Interacting, Frozen }
     [Header("Behavior")]
     public State state;
+    
     Animator AM;
-    State stateBeforeFrozen;
+    State stateBeforeFrozen = State.Running;
+
+    [Header("Physics")] Rigidbody2D RB;
+    [SerializeField] float movementSpeed = 1;
 
     // Start is called once before the first execution of Update after the MonoBehaviour is created
     void Start()
     {
+        RB = GetComponent<Rigidbody2D>();
         AM = GetComponent<Animator>();
     }
-    public override void ToggleFreezeState(bool isCharacterBeingFrozen) //Called from timefairy
+    public override void ToggleFreezeStateToTrue(bool isCharacterBeingFrozen) //Called from timefairy
     {
+        if(!AM) {AM = GetComponent<Animator>();}
         if (isCharacterBeingFrozen)
         {
-            AM.speed = 1;
+            AM.speed = 0;
             ChangeState(State.Frozen);
         }
         else
         {
-            AM.speed = 0;
+            AM.speed = 1;
             ChangeState(stateBeforeFrozen);
         }
     }
@@ -84,9 +90,29 @@ public class ProtagonistMovement : Movement
                 break;
         }
     }
+    void FixedUpdate()
+    {
+        switch (state)
+        {
+            case State.Running:
+                FixedUpdateWhileRunning();
+                break;
+            case State.Falling:
+                break;
+            case State.Interacting:
+                break;
+            case State.Frozen:
+                break;
+        }
+    }
     void UpdateWhileRunning()
     {
-
+        Debug.Log("Running1");
+    }
+    void FixedUpdateWhileRunning()
+    {
+        Debug.Log("Running2");
+        RB.MovePosition(transform.position + transform.right * movementSpeed * Time.deltaTime);
     }
     void UpdateWhileFalling()
     {
@@ -98,6 +124,6 @@ public class ProtagonistMovement : Movement
     }
     void UpdateWhileFrozen()
     {
-        
+        Debug.Log("IS FROZEN");
     }
 }

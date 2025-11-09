@@ -5,10 +5,19 @@ public class TimeFairy : MonoBehaviour
 {
     [SerializeField] bool isTimeFlowing;
     public static event Action TimeObjectHasChangedState;
+    [SerializeField] GameObject timeColorMask;
+    
 
     void Start()
     {
-
+        if (isTimeFlowing)
+        {
+            StartFlowOfTime();
+        }
+        else
+        {
+            StopFlowOfTime();
+        }
     }
     public void ToggleFlowOfTime()
     {
@@ -24,11 +33,15 @@ public class TimeFairy : MonoBehaviour
     }
     void StartFlowOfTime()
     {
+
         isTimeFlowing = true;
+        timeColorMask.SetActive(isTimeFlowing);
     }
     void StopFlowOfTime()
     {
+
         isTimeFlowing = false;
+        timeColorMask.SetActive(isTimeFlowing);
     }
     public bool ManagerCheckIfFlowOfTime()
     {

@@ -14,6 +14,26 @@ MonoBehaviour:
   m_EditorClassIdentifier: Assembly-CSharp::FullScreenBlitFeature
   m_Active: 1
   settings: {material: {fileID: 2100000, guid: 8368d27aa729a6b45a395596c4b8719c, type: 2}, passIndex: 1, renderPassEvent: 500}
+--- !u!114 &-3068625792139379599
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b00045f12942b46c698459096c89274e, type: 3}
+  m_Name: FullScreenPassRendererFeature
+  m_EditorClassIdentifier: Unity.RenderPipelines.Universal.Runtime::UnityEngine.Rendering.Universal.FullScreenPassRendererFeature
+  m_Active: 1
+  injectionPoint: 600
+  fetchColorBuffer: 1
+  requirements: 0
+  passMaterial: {fileID: 2100000, guid: 9a10bb82287cad64b9b4fbc0393370d6, type: 2}
+  passIndex: 0
+  bindDepthStencilAttachment: 0
+  m_Version: 1
 --- !u!114 &11400000
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -38,8 +58,9 @@ MonoBehaviour:
     probeSamplingDebugMesh: {fileID: -3555484719484374845, guid: 57d7c4c16e2765b47a4d2069b311bffe, type: 3}
     probeSamplingDebugTexture: {fileID: 2800000, guid: 24ec0e140fb444a44ab96ee80844e18e, type: 3}
     probeVolumeBlendStatesCS: {fileID: 0}
-  m_RendererFeatures: []
-  m_RendererFeatureMap: 
+  m_RendererFeatures:
+  - {fileID: -3068625792139379599}
+  m_RendererFeatureMap: 713ceeae190d6ad5
   m_UseNativeRenderPass: 0
   m_LayerMask:
     serializedVersion: 2
@@ -68,5 +89,5 @@ MonoBehaviour:
   m_MaxLightRenderTextureCount: 16
   m_MaxShadowRenderTextureCount: 1
   m_PostProcessData: {fileID: 11400000, guid: 41439944d30ece34e96484bdb6645b55, type: 2}
-  m_DefaultMaterialType: 1
+  m_DefaultMaterialType: 0
   m_DefaultCustomMaterial: {fileID: 2100000, guid: a97c105638bdf8b4a8650670310a4cd3, type: 2}

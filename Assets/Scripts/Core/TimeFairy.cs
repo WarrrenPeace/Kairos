@@ -58,4 +58,8 @@ public class TimeFairy : MonoBehaviour
     {
         if (isTimeFlowing) { return true; } else return false;
     }
+    void OnDestroy()
+    {
+        TimeObjectHasChangedState?.Invoke();
+    }
 }

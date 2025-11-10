@@ -24,14 +24,16 @@ public class TimeManager : MonoBehaviour
     }
     void Start()
     {
+        instance = this;
         allTimeObjects = new List<GameObject>(GameObject.FindGameObjectsWithTag("TimeTag"));
-
-        TimeFairy.TimeObjectHasChangedState += CheckAllTimeObjects;
         
         CheckAllTimeObjects();
+
+        TimeFairy.TimeObjectHasChangedState += CheckAllTimeObjects;
     }
     void CheckAllTimeObjects() //Called via event from any time object
     {
+        Debug.Log("CheckAllObjects");
         if(isTimeObjectListDynamic) {allTimeObjects = new List<GameObject>(GameObject.FindGameObjectsWithTag("TimeTag"));} //Enable if list needs to be updated
         
         for (int i = 0; i < allTimeObjects.Count; i++)
@@ -49,8 +51,8 @@ public class TimeManager : MonoBehaviour
     void TimeFrozen()
     {
         isEverythingFrozen = true;
-        ASTicking.Pause();
-        ASMusic.Pause();
+        if(ASTicking) ASTicking.Pause();
+        if(ASMusic) ASMusic.Pause();
     }
     void TimeResumed()
     {

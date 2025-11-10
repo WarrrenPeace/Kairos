@@ -6,7 +6,7 @@ public class TimeClicker : MonoBehaviour
 {
     Vector2 mousePosition;
     GameObject currentTarget;
-    //bool canClick = true;
+    bool clickOffCooldown = true;
     [SerializeField] GameObject clickEffectPrefab;
 
     [SerializeField] LayerMask maskForTimeObjects;
@@ -41,7 +41,7 @@ public class TimeClicker : MonoBehaviour
     {
         if (currentTarget)
         {
-            if (Mouse.current.leftButton.wasPressedThisFrame)
+            if (Mouse.current.leftButton.wasPressedThisFrame && clickOffCooldown)
             {
                 ToggleTimeForClickedObject();
                 Instantiate(clickEffectPrefab, currentTarget.transform.position, quaternion.identity,currentTarget.transform);
@@ -50,6 +50,12 @@ public class TimeClicker : MonoBehaviour
     }
     void ToggleTimeForClickedObject()
     {
+        clickOffCooldown = false;
+        Invoke("ResetClickCooldown", 0.25f);
         currentTarget.GetComponent<TimeFairy>().ToggleFlowOfTime();
+    }
+    void ResetClickCooldown()
+    {
+        clickOffCooldown = true;
     }
 }

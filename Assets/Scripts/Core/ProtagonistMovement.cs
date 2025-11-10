@@ -134,11 +134,11 @@ public class ProtagonistMovement : Movement
     }
     void UpdateWhileRunning()
     {
-        Debug.Log("Running1");
+        //Debug.Log("Running1");
     }
     void FixedUpdateWhileRunning()
     {
-        Debug.Log("Running2");
+        //Debug.Log("Running2");
         RB.MovePosition(transform.position + movementDirection * movementSpeed * Time.deltaTime);
     }
     void UpdateWhileFalling()

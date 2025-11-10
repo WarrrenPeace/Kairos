@@ -1,3 +1,4 @@
+using System;
 using UnityEngine;
 
 public class ProtagonistMovement : Movement
@@ -5,18 +6,30 @@ public class ProtagonistMovement : Movement
     public enum State { Running, Falling, Interacting, Frozen }
     [Header("Behavior")]
     public State state;
+    public static event Action hasTouchedGoal;
     
     Animator AM;
     State stateBeforeFrozen = State.Running;
 
     [Header("Physics")] Rigidbody2D RB;
+    [SerializeField] Vector3 movementDirection;
     [SerializeField] float movementSpeed = 1;
+    public bool FacingRIGHT;
 
     // Start is called once before the first execution of Update after the MonoBehaviour is created
     void Start()
     {
         RB = GetComponent<Rigidbody2D>();
         AM = GetComponent<Animator>();
+        ToggleTurn(FacingRIGHT);
+    }
+    void OnCollisionEnter2D(Collision2D col)
+    {
+        if(col.gameObject.CompareTag("GATE"))
+        {
+            hasTouchedGoal?.Invoke();
+            Destroy(gameObject);
+        }
     }
     public override void ToggleFreezeStateToTrue(bool isCharacterBeingFrozen) //Called from timefairy
     {
@@ -69,6 +82,20 @@ public class ProtagonistMovement : Movement
     }
     void ChangeStateToFrozen()
     {
+
+    }
+    void ToggleTurn(bool isFacingRight)
+    {
+        if (isFacingRight)
+        {
+            GetComponent<SpriteRenderer>().flipX = false;
+            movementDirection = transform.right;
+        }
+        else
+        {
+            GetComponent<SpriteRenderer>().flipX = true;
+            movementDirection = -transform.right;
+        }
     }
 
     // Update is called once per frame
@@ -112,7 +139,7 @@ public class ProtagonistMovement : Movement
     void FixedUpdateWhileRunning()
     {
         Debug.Log("Running2");
-        RB.MovePosition(transform.position + transform.right * movementSpeed * Time.deltaTime);
+        RB.MovePosition(transform.position + movementDirection * movementSpeed * Time.deltaTime);
     }
     void UpdateWhileFalling()
     {
@@ -124,6 +151,6 @@ public class ProtagonistMovement : Movement
     }
     void UpdateWhileFrozen()
     {
-        Debug.Log("IS FROZEN");
+        //Debug.Log("IS FROZEN");
     }
 }

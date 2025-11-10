@@ -1,10 +1,11 @@
+using System;
 using System.Collections.Generic;
-using Mono.Cecil.Cil;
 using UnityEngine;
 
 public class TimeManager : MonoBehaviour
 {
     public static TimeManager instance;
+    public static event Action TIMEOVER;
     [SerializeField] AudioSource ASTicking;
     [SerializeField] AudioSource ASMusic;
     bool isEverythingFrozen;
@@ -54,7 +55,7 @@ public class TimeManager : MonoBehaviour
     void TimeResumed()
     {
         isEverythingFrozen = false;
-        if (!ASTicking.isPlaying) { ASTicking.Play(); }
+        if(!ASTicking.isPlaying) { ASTicking.Play(); }
         if(!ASMusic.isPlaying) {ASMusic.Play();}
         
     }
@@ -78,9 +79,10 @@ public class TimeManager : MonoBehaviour
     }
     void NoTimeLeft() //Talk to game manager to END LEVEL
     {
-        Debug.Log("TIME IS UP");
+        //Debug.Log("TIME IS UP");
         ASTicking.Pause();
         ASMusic.Pause();
         enabled = false;
+        TIMEOVER?.Invoke();
     }
 }

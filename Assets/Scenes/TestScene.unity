@@ -128,7 +128,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 46925661}
-  m_Layer: 6
+  m_Layer: 0
   m_Name: WallDetection
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -408,6 +408,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 245c567a24e9b704a8cf765aa3a7d437, type: 3}
   m_Name: 
   m_EditorClassIdentifier: '::'
+  AS: {fileID: 0}
   isTimeFlowing: 0
   timeColorMask: {fileID: 182260158}
   resume: {fileID: 8300000, guid: c414cfebeba5b4049b785beaa0114c45, type: 3}
@@ -543,6 +544,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 245c567a24e9b704a8cf765aa3a7d437, type: 3}
   m_Name: 
   m_EditorClassIdentifier: '::'
+  AS: {fileID: 0}
   isTimeFlowing: 0
   timeColorMask: {fileID: 1317007495}
   resume: {fileID: 8300000, guid: c414cfebeba5b4049b785beaa0114c45, type: 3}
@@ -1346,7 +1348,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 233799929}
-  m_Layer: 6
+  m_Layer: 0
   m_Name: WallDetection
   m_TagString: Untagged
   m_Icon: {fileID: 0}

@@ -20,7 +20,10 @@ public class TimeManager : MonoBehaviour
             Debug.Log("THERE ARE 2 TIMEMANAGERS?!");
         }
         else
+        {
             instance = this;
+        }
+        TimeFairy.TimeObjectHasChangedState += CheckAllTimeObjects;
     }
     void Start()
     {
@@ -29,13 +32,14 @@ public class TimeManager : MonoBehaviour
         
         CheckAllTimeObjects();
 
-        TimeFairy.TimeObjectHasChangedState += CheckAllTimeObjects;
+        //TimeFairy.TimeObjectHasChangedState += CheckAllTimeObjects;
     }
     void CheckAllTimeObjects() //Called via event from any time object
     {
         Debug.Log("CheckAllObjects");
-        if(isTimeObjectListDynamic) {allTimeObjects = new List<GameObject>(GameObject.FindGameObjectsWithTag("TimeTag"));} //Enable if list needs to be updated
+        if (isTimeObjectListDynamic) { allTimeObjects = new List<GameObject>(GameObject.FindGameObjectsWithTag("TimeTag")); } //Enable if list needs to be updated
         
+        if(allTimeObjects.Count == 0) { Debug.Log("NoTimeObjects"); TimeFrozen(); return; }
         for (int i = 0; i < allTimeObjects.Count; i++)
         {
             if (allTimeObjects[i].GetComponent<TimeFairy>().ManagerCheckIfFlowOfTime()) //If ANYTHING returns true, time IS FLOWING

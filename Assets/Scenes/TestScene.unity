@@ -544,7 +544,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 245c567a24e9b704a8cf765aa3a7d437, type: 3}
   m_Name: 
   m_EditorClassIdentifier: '::'
-  AS: {fileID: 0}
+  AS: {fileID: 95477033}
   isTimeFlowing: 0
   timeColorMask: {fileID: 1317007495}
   resume: {fileID: 8300000, guid: c414cfebeba5b4049b785beaa0114c45, type: 3}
@@ -1546,7 +1546,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!4 &437580777
 Transform:
   m_ObjectHideFlags: 0
@@ -1850,7 +1850,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: '::'
   ASTicking: {fileID: 590614149}
   ASMusic: {fileID: 590614150}
-  timeLeftInLevel: 10
+  isEverythingFrozen: 1
+  timeLeftInLevel: 400
   isTimeObjectListDynamic: 1
   allTimeObjects: []
 --- !u!114 &590614148
@@ -1978,10 +1979,10 @@ AudioSource:
   OutputAudioMixerGroup: {fileID: 0}
   m_audioClip: {fileID: 0}
   m_Resource: {fileID: 8300000, guid: 8cbd31c0ed684184591d376e395f63b1, type: 3}
-  m_PlayOnAwake: 1
+  m_PlayOnAwake: 0
   m_Volume: 0.2
   m_Pitch: 1
-  Loop: 0
+  Loop: 1
   Mute: 0
   Spatialize: 0
   SpatializePostEffects: 0

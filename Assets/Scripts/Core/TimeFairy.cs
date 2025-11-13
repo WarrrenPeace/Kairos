@@ -24,7 +24,7 @@ public class TimeFairy : MonoBehaviour
         {
             isTimeFlowing = false;
             GetComponent<Movement>().ToggleFreezeStateToTrue(true);
-            timeColorMask.SetActive(isTimeFlowing);StopFlowOfTime();
+            timeColorMask.SetActive(isTimeFlowing);
         }
     }
     public void ToggleFlowOfTime()
@@ -32,15 +32,22 @@ public class TimeFairy : MonoBehaviour
         if (isTimeFlowing)
         {
             StopFlowOfTime();
-            Debug.Log(name + "IsNOTFlowing");
+            Debug.Log(name + " has been toggled to Frozen");
             TimeObjectHasChangedState?.Invoke();
         }
         else
         {
             StartFlowOfTime();
-            Debug.Log(name + "IsFlowing");
+            Debug.Log(name + " has been toggled to Flowing");
             TimeObjectHasChangedState?.Invoke();
         }
+    }
+    void StopFlowOfTime()
+    {
+        isTimeFlowing = false;
+        GetComponent<Movement>().ToggleFreezeStateToTrue(true);
+        timeColorMask.SetActive(isTimeFlowing);
+        if(AS)AS.PlayOneShot(pause);
     }
     void StartFlowOfTime()
     {
@@ -49,21 +56,14 @@ public class TimeFairy : MonoBehaviour
         timeColorMask.SetActive(isTimeFlowing);
         if(AS)AS.PlayOneShot(resume);
     }
-    void StopFlowOfTime()
-    {
-
-        isTimeFlowing = false;
-        GetComponent<Movement>().ToggleFreezeStateToTrue(true);
-        timeColorMask.SetActive(isTimeFlowing);
-        if(AS)AS.PlayOneShot(pause);
-    }
+    
     public bool ManagerCheckIfFlowOfTime()
     {
         return isTimeFlowing;
     }
-    void OnDestroy()
-    {
-        Debug.Log(name + "destroyed");
-        TimeObjectHasChangedState?.Invoke();
-    }
+    //void OnDestroy()
+    //{
+    //    Debug.Log(name + "destroyed");
+    //    TimeObjectHasChangedState?.Invoke();
+    //}
 }

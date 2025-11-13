@@ -8,7 +8,7 @@ public class TimeManager : MonoBehaviour
     public static event Action TIMEOVER;
     [SerializeField] AudioSource ASTicking;
     [SerializeField] AudioSource ASMusic;
-    bool isEverythingFrozen;
+    [SerializeField] bool isEverythingFrozen;
     public float timeLeftInLevel = 25;
     [SerializeField] bool isTimeObjectListDynamic;
     [SerializeField] List<GameObject> allTimeObjects;
@@ -23,7 +23,14 @@ public class TimeManager : MonoBehaviour
         {
             instance = this;
         }
+    }
+    void OnEnable()
+    {
         TimeFairy.TimeObjectHasChangedState += CheckAllTimeObjects;
+    }
+    void OnDisable()
+    {
+        TimeFairy.TimeObjectHasChangedState -= CheckAllTimeObjects;
     }
     void Start()
     {
@@ -44,26 +51,28 @@ public class TimeManager : MonoBehaviour
         {
             if (allTimeObjects[i].GetComponent<TimeFairy>().ManagerCheckIfFlowOfTime()) //If ANYTHING returns true, time IS FLOWING
             {
-                //Debug.Log(i);
+                Debug.Log(allTimeObjects[i].name + " IsFlowing");
                 TimeResumed();
                 return;
             }
-            TimeFrozen(); //Debug.Log("Time Frozen");
+
         }
+        TimeFrozen(); Debug.Log("Time Frozen");
             
     }
     void TimeFrozen()
     {
+        Debug.Log("TIME FROZEN");
         isEverythingFrozen = true;
-        if(ASTicking) ASTicking.Pause();
-        if(ASMusic) ASMusic.Pause();
+        if (ASTicking != null) { if (ASTicking.isPlaying) ASTicking.Pause(); } //I didnt do this at will. ITS BUGGED WHEN RESTARTED LEVELS IDK WHY
+        if (ASMusic != null) { if (ASMusic.isPlaying) ASMusic.Pause(); } //I didnt do this at will. ITS BUGGED WHEN RESTARTED LEVELS IDK WHY
     }
     void TimeResumed()
     {
+        Debug.Log("TIME RESUMED");
         isEverythingFrozen = false;
-        if(!ASTicking.isPlaying) { ASTicking.Play(); }
-        if(!ASMusic.isPlaying) {ASMusic.Play();}
-        
+        if (ASTicking != null) { if (!ASTicking.isPlaying) { ASTicking.Play(); } } //I didnt do this at will. ITS BUGGED WHEN RESTARTED LEVELS IDK WHY 
+        if (ASMusic != null) { if (!ASMusic.isPlaying) { ASMusic.Play(); } } //I didnt do this at will. ITS BUGGED WHEN RESTARTED LEVELS IDK WHY
     }
 
     // Update is called once per frame
@@ -86,8 +95,8 @@ public class TimeManager : MonoBehaviour
     void NoTimeLeft() //Talk to game manager to END LEVEL
     {
         //Debug.Log("TIME IS UP");
-        ASTicking.Pause();
-        ASMusic.Pause();
+        if (ASTicking != null) { if (ASTicking.isPlaying) ASTicking.Pause(); } //I didnt do this at will. ITS BUGGED WHEN RESTARTED LEVELS IDK WHY
+        if (ASMusic != null) { if (ASMusic.isPlaying) ASMusic.Pause(); } //I didnt do this at will. ITS BUGGED WHEN RESTARTED LEVELS IDK WHY
         enabled = false;
         TIMEOVER?.Invoke();
     }

@@ -2,15 +2,23 @@ using UnityEngine;
 
 public class RiftAnimation : MonoBehaviour
 {
-    // Start is called once before the first execution of Update after the MonoBehaviour is created
-    void Start()
+    [SerializeField] Animator AMForMask;
+    void OnEnable()
     {
-        
+        GameManager.gameHasEndedWON += TriggerWINAnimation;
+        GameManager.gameHasEndedLOST += TriggerLOSTAnimation;
     }
-
-    // Update is called once per frame
-    void Update()
+    void OnDisable()
     {
-        
+        GameManager.gameHasEndedWON -= TriggerWINAnimation;
+        GameManager.gameHasEndedLOST -= TriggerLOSTAnimation;
+    }
+    void TriggerWINAnimation()
+    {
+        AMForMask.SetTrigger("GAMEWON");
+    }
+    void TriggerLOSTAnimation()
+    {
+        AMForMask.SetTrigger("GAMELOST");
     }
 }

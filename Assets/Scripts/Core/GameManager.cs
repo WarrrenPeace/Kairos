@@ -1,8 +1,11 @@
+using System;
 using UnityEngine;
 
 public class GameManager : MonoBehaviour
 {
     public static GameManager instance;
+    public static event Action gameHasEndedWON;
+    public static event Action gameHasEndedLOST;
     [SerializeField] int playersNeededToWin;
     [SerializeField] bool GameOVER = false;
     [SerializeField] GameObject gameWinScreen;
@@ -27,6 +30,7 @@ public class GameManager : MonoBehaviour
     {
         if (!GameOVER)
         {
+            gameHasEndedWON?.Invoke();
             GameOVER = true;
             Debug.Log("You Win");
             gameWinScreen.SetActive(true);
@@ -36,9 +40,10 @@ public class GameManager : MonoBehaviour
     {
         if (!GameOVER)
         {
-        GameOVER = true;
-        Debug.Log("You Lost");
-        gameOverScreen.SetActive(true);
+            gameHasEndedLOST?.Invoke();
+            GameOVER = true;
+            Debug.Log("You Lost");
+            gameOverScreen.SetActive(true);
         }
     }
 }
